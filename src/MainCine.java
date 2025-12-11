@@ -21,8 +21,8 @@ public class MainCine {
             System.out.println(mipedido.getMiReserva()[i].obtenerDetalles());
         }
     
-        double total = mipedido.calcularTotal();  
-        System.out.println("TOTAL: $" + total);
+        
+        System.out.println("Costo total: " + mipedido.calcularTotal());
         
     }
 }
